@@ -129,16 +129,12 @@ select {
 	color: #FFFFF0;
 	background-color: var(--mainTextColor);
 	border-radius: 21px;
-	@media (any-hover: hover) {
-		&:hover {
-			background-color: #000;
-			color: var(--accentColor);
-		}
-	}
 }
 
 /* -----Общие блоки-End---- */
-
+.todo-list {
+	background-color: aquamarine;
+}
 .actions {
 	padding: 20px 20px;
 	width: 100%;
@@ -146,9 +142,21 @@ select {
 	justify-content: space-between;
 	align-items: center;
 	gap: 30px;
-	background-color: aquamarine;
 } 
 
 .task-input {
 	flex: 1 1 auto;
+}
+
+.list {
+	padding: 20px;
+}
+.list__item {
+	padding: 10px;
+	background-color: pink;
+	border-radius: 10px;
+
+	margin-bottom: 5px;
+
+	cursor: pointer;
 }
