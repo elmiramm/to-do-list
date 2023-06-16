@@ -130,6 +130,9 @@ select {
 	background-color: var(--mainTextColor);
 	border-radius: 21px;
 }
+.btn:hover {
+	color: var(--accentColor);
+}
 
 /* -----Общие блоки-End---- */
 .todo-list {

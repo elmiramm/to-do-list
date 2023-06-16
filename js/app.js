@@ -13,8 +13,11 @@ const renderListItems = listItems => {
 	const listItemsElems = listItems.map(itemText => {
 		const listItemElem = document.createElement('li');
 		listItemElem.classList.add('list__item');
-		listItemElem.append(itemText);
+		const checkboxElem = document.createElement('input');
+		checkboxElem.classList.add('list__item-checkbox');
+		checkboxElem.setAttribute('type', 'checkbox');
 
+		listItemElem.append(checkboxElem, itemText);
 		return listItemElem;
 	});
 
