@@ -1,8 +1,8 @@
 const tasks = [
 	{ text: 'Running', done: true },
-	{ text: 'Programming', done: false },
+	{ text: 'Programming', done: true },
 	{ text: 'REceive a parsle', done: false },
-	{ text: 'Meeting with friend', done: false },
+	{ text: 'Meeting with friend', done: true },
 	{ text: 'Learning englisg/korean', done: false },
 	{ text: 'Prepare for the test', done: false },
 ];

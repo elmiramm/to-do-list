@@ -154,7 +154,7 @@ select {
 .list {
 	padding: 20px;
 }
-.list__item {
+.list-item {
 	padding: 10px;
 	background-color: pink;
 	border-radius: 10px;
@@ -164,7 +164,7 @@ select {
 	cursor: pointer;
 }
 
-.list__item_done {
+.list-item_done {
 	text-decoration: line-through;
 	opacity: 0.7;
 }
