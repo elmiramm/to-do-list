@@ -3,6 +3,8 @@ import { renderTasks } from './renderer.js';
 import { getTasksList } from './tasksGateway.js';
 import { setItem } from './storage.js';
 
+import './index.scss';
+
 
 document.addEventListener('DOMContentLoaded', () => {
 	getTasksList()
